@@ -6,40 +6,74 @@
 }
 
 .principal{
-    background-color: red;
-    width: 600px;
+    background-color: #ebebeb;
+    width: 450px;
     height: 600px;
     margin: 100px auto;
-    border-radius: 20px;
+    border-radius: 30px;
+    border: 5px solid #b6b6b6dc;
+    box-shadow: 5px 20px 10px #3d3d3d49;
 }
 
 .principal h1{
     text-align: center;
     text-transform: uppercase;
     padding-top: 10px;
+    /*text-decoration: underline wavy;*/
 }
 
 .principal input{
     display: block;
     width: 80%;
-    height: 40px;
+    height: 100px;
     margin: 0 auto;
-    border: none;
-    border-radius: 5px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(163, 163, 163), rgb(194, 194, 194), rgb(226, 226, 226));
+    margin-bottom: 10px;
+    font-size: 36px;
+    text-align: right;
 }
 
 .principal table{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
-    font-size: 48px;
+    font-size: 36px;
+    height: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.principal tr .orange{
+    background-color: rgb(255, 165, 0);
+    border: orange;
+}
+
+
+
+.principal tr .mais{
+    height: 100px;
 }
 
 .principal tr td{
     border: 1px solid black;
     text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    margin: 20px 0;
+    background-color: rgb(87, 87, 87);
+    color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .principal tr td:hover{
-    background-color: brown;
+    background-color: rgba(87, 87, 87,0.8);
+    cursor: pointer;
+}
+
+.principal tr .orange:hover{
+    background-color: rgba(255, 165, 0, 0.8);
     cursor: pointer;
 }
